@@ -1,0 +1,1 @@
+ENGINE_MODE=exposed DEBUG=0 PYTHONPATH=/Users/ayush/Desktop/scene-language/scripts/prompts:$PYTHONPATH python /Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-140548_5a533430-ec27-4ecc-aa71-a47d044fe3e3/An_ancient_tapestry_in_a_dimly_lit_museum,_with_intricate_woven_e546e7b9-aef5-536c-b6fe-ef447cd6a0c4/2/impl.py

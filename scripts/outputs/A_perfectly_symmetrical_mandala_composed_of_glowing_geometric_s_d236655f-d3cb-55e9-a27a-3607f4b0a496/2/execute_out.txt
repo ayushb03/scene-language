@@ -1,0 +1,72 @@
+ENGINE_MODE='exposed'
+DRY_RUN=False
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/rover/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/table/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/table/scene.xml not found
+[WARNING] Failed to import neural pipelines.
+[INFO] ('/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-135527_343adcfc-3c50-4e3a-ac37-c6ad52c08713/A_perfectly_symmetrical_mandala_composed_of_glowing_geometric_s_d236655f-d3cb-55e9-a27a-3607f4b0a496/2/renderings',){}
+[INFO] (None,){'verbose': False}
+[INFO] ('/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-135527_343adcfc-3c50-4e3a-ac37-c6ad52c08713/A_perfectly_symmetrical_mandala_composed_of_glowing_geometric_s_d236655f-d3cb-55e9-a27a-3607f4b0a496/2/renderings',){'verbose': False}
+[INFO] (None, [[None], [None]]){'col_type': 'text'}
+[WARNING] no roots specified, using the last function in the library
+[INFO] calling node (supposed to be root): mandala
+[INFO] registering children for center_piece with 1 hist calls
+[INFO] registering children for petal with 36 hist calls
+[INFO] registering children for petal_ring with 3 hist calls
+[INFO] registering children for light_ray with 72 hist calls
+[INFO] registering children for ray_ring with 3 hist calls
+[INFO] registering children for mandala with 1 hist calls
+root='mandala'
+[INFO] (None, [['Parsed root from program.']]){}
+[INFO] (None, [['root function name: mandala'], ["scc=([{'center_piece'}, {'petal'}, {'petal_ring'}, {'light_ray'}, {'ray_ring'}, {'mandala'}], [[], [], [1], [], [3], [0, 1, 2, 3, 4]])"]]){}
+[INFO] (None, [['root function name: mandala'], ["scc=([{'center_piece'}, {'petal'}, {'petal_ring'}, {'light_ray'}, {'ray_ring'}, {'mandala'}], [[], [], [1], [], [3], [0, 1, 2, 3, 4]])"]]){}
+[INFO] (None, [['', '']]){'col_names': ['dependency', 'program']}
+[INFO] executing `mandala`...
+node_depths={'center_piece': 1, 'petal': 2, 'petal_ring': 1, 'light_ray': 2, 'ray_ring': 1, 'mandala': 0}
+[INFO] executing `mandala` done!
+node_depths={'center_piece': 1, 'petal': 2, 'petal_ring': 1, 'light_ray': 2, 'ray_ring': 1, 'mandala': 0}
+[INFO] (None, [['starting tree_depth=00']]){}
+[INFO] (None, [['tree_depth=00, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17AF6F6D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17DF70410>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17DFBA950>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17DFDE950>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17DFDF9D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17DFDD8D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['starting tree_depth=01']]){}
+[INFO] (None, [['tree_depth=01, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17E57B0D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17E57AA90>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17E579D90>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17E579750>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17E57B290>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17E578C90>]]){'col_names': ['exposed']}
+[INFO] (None, [['starting tree_depth=02']]){}
+[INFO] (None, [['tree_depth=02, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17E57AB10>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17E5798D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17E579050>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17E579410>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17E579610>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17E579010>]]){'col_names': ['exposed']}
+[INFO] (None,){}
+[INFO] (None,){}

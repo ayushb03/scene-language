@@ -1,0 +1,57 @@
+ENGINE_MODE='exposed'
+DRY_RUN=False
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/rover/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/table/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/table/scene.xml not found
+[WARNING] Failed to import neural pipelines.
+[INFO] ('/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-140548_5a533430-ec27-4ecc-aa71-a47d044fe3e3/An_ancient_tapestry_in_a_dimly_lit_museum,_with_intricate_woven_e546e7b9-aef5-536c-b6fe-ef447cd6a0c4/1/renderings',){}
+[INFO] (None,){'verbose': False}
+[INFO] ('/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-140548_5a533430-ec27-4ecc-aa71-a47d044fe3e3/An_ancient_tapestry_in_a_dimly_lit_museum,_with_intricate_woven_e546e7b9-aef5-536c-b6fe-ef447cd6a0c4/1/renderings',){'verbose': False}
+[INFO] (None, [[None], [None]]){'col_type': 'text'}
+[WARNING] no roots specified, using the last function in the library
+[INFO] calling node (supposed to be root): ancient_tapestry
+[INFO] registering children for wooden_frame with 1 hist calls
+[INFO] registering children for fabric_background with 1 hist calls
+[INFO] registering children for mythical_pattern with 5 hist calls
+[INFO] registering children for ancient_tapestry with 1 hist calls
+root='ancient_tapestry'
+[INFO] (None, [['Parsed root from program.']]){}
+[INFO] (None, [['root function name: ancient_tapestry'], ["scc=([{'wooden_frame'}, {'fabric_background'}, {'mythical_pattern'}, {'ancient_tapestry'}], [[], [], [], [0, 1, 2]])"]]){}
+[INFO] (None, [['root function name: ancient_tapestry'], ["scc=([{'wooden_frame'}, {'fabric_background'}, {'mythical_pattern'}, {'ancient_tapestry'}], [[], [], [], [0, 1, 2]])"]]){}
+[INFO] (None, [['', '']]){'col_names': ['dependency', 'program']}
+[INFO] executing `ancient_tapestry`...
+node_depths={'wooden_frame': 1, 'fabric_background': 1, 'mythical_pattern': 1, 'ancient_tapestry': 0}
+[INFO] executing `ancient_tapestry` done!
+node_depths={'wooden_frame': 1, 'fabric_background': 1, 'mythical_pattern': 1, 'ancient_tapestry': 0}
+[INFO] (None, [['starting tree_depth=00']]){}
+[INFO] (None, [['tree_depth=00, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x16C89F790>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x16F0AC8D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x16F0AEA90>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x16F0AE690>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x16F00EC10>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x16F0AEBD0>]]){'col_names': ['exposed']}
+[INFO] (None, [['starting tree_depth=01']]){}
+[INFO] (None, [['tree_depth=01, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x16F00EBD0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x16F5FC9D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x16F5FC9D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x16F5FC9D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x16F5FC9D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x16C89E410>]]){'col_names': ['exposed']}
+[INFO] (None,){}
+[INFO] (None,){}

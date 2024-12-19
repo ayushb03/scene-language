@@ -1,0 +1,72 @@
+ENGINE_MODE='exposed'
+DRY_RUN=False
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/rover/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/table/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/table/scene.xml not found
+[WARNING] Failed to import neural pipelines.
+[INFO] ('/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-115818_bcf96a8e-ef69-4ee2-9332-d5ec4afa2aa1/A_coral_reef_teeming_with_life_intricate_coral_structures,_scho_b06295f9-80b0-5dd3-a69c-bedf7cff1288/1/renderings',){}
+[INFO] (None,){'verbose': False}
+[INFO] ('/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-115818_bcf96a8e-ef69-4ee2-9332-d5ec4afa2aa1/A_coral_reef_teeming_with_life_intricate_coral_structures,_scho_b06295f9-80b0-5dd3-a69c-bedf7cff1288/1/renderings',){'verbose': False}
+[INFO] (None, [[None], [None]]){'col_type': 'text'}
+[WARNING] no roots specified, using the last function in the library
+[INFO] calling node (supposed to be root): coral_reef_scene
+[INFO] registering children for coral_branch with 24 hist calls
+[INFO] registering children for coral_cluster with 3 hist calls
+[INFO] registering children for fish with 36 hist calls
+[INFO] registering children for fish_school with 3 hist calls
+[INFO] registering children for rock_formation with 1 hist calls
+[INFO] registering children for coral_reef_scene with 1 hist calls
+root='coral_reef_scene'
+[INFO] (None, [['Parsed root from program.']]){}
+[INFO] (None, [['root function name: coral_reef_scene'], ["scc=([{'coral_branch'}, {'coral_cluster'}, {'fish'}, {'fish_school'}, {'rock_formation'}, {'coral_reef_scene'}], [[], [0], [], [2], [], [0, 1, 2, 3, 4]])"]]){}
+[INFO] (None, [['root function name: coral_reef_scene'], ["scc=([{'coral_branch'}, {'coral_cluster'}, {'fish'}, {'fish_school'}, {'rock_formation'}, {'coral_reef_scene'}], [[], [0], [], [2], [], [0, 1, 2, 3, 4]])"]]){}
+[INFO] (None, [['', '']]){'col_names': ['dependency', 'program']}
+[INFO] executing `coral_reef_scene`...
+node_depths={'coral_branch': 2, 'coral_cluster': 1, 'fish': 2, 'fish_school': 1, 'rock_formation': 1, 'coral_reef_scene': 0}
+[INFO] executing `coral_reef_scene` done!
+node_depths={'coral_branch': 2, 'coral_cluster': 1, 'fish': 2, 'fish_school': 1, 'rock_formation': 1, 'coral_reef_scene': 0}
+[INFO] (None, [['starting tree_depth=00']]){}
+[INFO] (None, [['tree_depth=00, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13A759450>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13A77E110>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13DA831D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E293C10>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E293390>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E291390>]]){'col_names': ['exposed']}
+[INFO] (None, [['starting tree_depth=01']]){}
+[INFO] (None, [['tree_depth=01, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E291210>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E291110>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E290F90>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E290F10>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E290DD0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E290B50>]]){'col_names': ['exposed']}
+[INFO] (None, [['starting tree_depth=02']]){}
+[INFO] (None, [['tree_depth=02, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E2914D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E290990>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E290A10>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E2908D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E290610>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E290710>]]){'col_names': ['exposed']}
+[INFO] (None,){}
+[INFO] (None,){}

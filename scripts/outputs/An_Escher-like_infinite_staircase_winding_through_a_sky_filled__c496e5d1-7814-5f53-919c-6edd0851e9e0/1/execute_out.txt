@@ -1,0 +1,72 @@
+ENGINE_MODE='exposed'
+DRY_RUN=False
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/rover/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/table/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/table/scene.xml not found
+[WARNING] Failed to import neural pipelines.
+[INFO] ('/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-135048_6cc756c0-2b58-45cd-8f2b-e798210633fd/An_Escher-like_infinite_staircase_winding_through_a_sky_filled__c496e5d1-7814-5f53-919c-6edd0851e9e0/1/renderings',){}
+[INFO] (None,){'verbose': False}
+[INFO] ('/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-135048_6cc756c0-2b58-45cd-8f2b-e798210633fd/An_Escher-like_infinite_staircase_winding_through_a_sky_filled__c496e5d1-7814-5f53-919c-6edd0851e9e0/1/renderings',){'verbose': False}
+[INFO] (None, [[None], [None]]){'col_type': 'text'}
+[WARNING] no roots specified, using the last function in the library
+[INFO] calling node (supposed to be root): escher_scene
+[INFO] registering children for clock_face with 5 hist calls
+[INFO] registering children for floating_clock with 5 hist calls
+[INFO] registering children for stair_step with 12 hist calls
+[INFO] registering children for infinite_staircase with 1 hist calls
+[INFO] registering children for floating_geometry with 3 hist calls
+[INFO] registering children for escher_scene with 1 hist calls
+root='escher_scene'
+[INFO] (None, [['Parsed root from program.']]){}
+[INFO] (None, [['root function name: escher_scene'], ["scc=([{'clock_face'}, {'floating_clock'}, {'stair_step'}, {'infinite_staircase'}, {'floating_geometry'}, {'escher_scene'}], [[], [0], [], [2], [], [0, 1, 2, 3, 4]])"]]){}
+[INFO] (None, [['root function name: escher_scene'], ["scc=([{'clock_face'}, {'floating_clock'}, {'stair_step'}, {'infinite_staircase'}, {'floating_geometry'}, {'escher_scene'}], [[], [0], [], [2], [], [0, 1, 2, 3, 4]])"]]){}
+[INFO] (None, [['', '']]){'col_names': ['dependency', 'program']}
+[INFO] executing `escher_scene`...
+node_depths={'clock_face': 2, 'floating_clock': 1, 'stair_step': 2, 'infinite_staircase': 1, 'floating_geometry': 1, 'escher_scene': 0}
+[INFO] executing `escher_scene` done!
+node_depths={'clock_face': 2, 'floating_clock': 1, 'stair_step': 2, 'infinite_staircase': 1, 'floating_geometry': 1, 'escher_scene': 0}
+[INFO] (None, [['starting tree_depth=00']]){}
+[INFO] (None, [['tree_depth=00, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x16241D450>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x16241E1D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1621B82D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1621BBED0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1621CDAD0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1621CD110>]]){'col_names': ['exposed']}
+[INFO] (None, [['starting tree_depth=01']]){}
+[INFO] (None, [['tree_depth=01, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1621CC650>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1621CCDD0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1621CD2D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1621CFC90>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1621CCDD0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x162424B10>]]){'col_names': ['exposed']}
+[INFO] (None, [['starting tree_depth=02']]){}
+[INFO] (None, [['tree_depth=02, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x162425990>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1621CFE10>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1624161D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1621D6C10>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x162415E90>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x162415D90>]]){'col_names': ['exposed']}
+[INFO] (None,){}
+[INFO] (None,){}

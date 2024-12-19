@@ -1,0 +1,75 @@
+[31m2024-12-19 14:00:16 WARN  wrk6  [Cylinder] 'to_world' transform shouldn't contain any shearing!
+ENGINE_MODE='exposed'
+DRY_RUN=False
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/rover/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/table/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/table/scene.xml not found
+[WARNING] Failed to import neural pipelines.
+[INFO] ('/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-135849_59be7072-d755-49cb-8634-eac176d30ef4/A_sprawling_futuristic_cityscape_at_night,_with_thousands_of_il_ecac09ef-e6a7-5392-a41b-a1220d3ee983/0/renderings',){}
+[INFO] (None,){'verbose': False}
+[INFO] ('/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-135849_59be7072-d755-49cb-8634-eac176d30ef4/A_sprawling_futuristic_cityscape_at_night,_with_thousands_of_il_ecac09ef-e6a7-5392-a41b-a1220d3ee983/0/renderings',){'verbose': False}
+[INFO] (None, [[None], [None]]){'col_type': 'text'}
+[WARNING] no roots specified, using the last function in the library
+[INFO] calling node (supposed to be root): futuristic_cityscape
+[INFO] registering children for skyscraper with 60 hist calls
+[INFO] registering children for flying_vehicle with 20 hist calls
+[INFO] registering children for bridge_segment with 40 hist calls
+[INFO] registering children for city_district with 1 hist calls
+[INFO] registering children for aerial_traffic with 1 hist calls
+[INFO] registering children for bridge_network with 1 hist calls
+[INFO] registering children for futuristic_cityscape with 1 hist calls
+root='futuristic_cityscape'
+[INFO] (None, [['Parsed root from program.']]){}
+[INFO] (None, [['root function name: futuristic_cityscape'], ["scc=([{'skyscraper'}, {'flying_vehicle'}, {'bridge_segment'}, {'city_district'}, {'aerial_traffic'}, {'bridge_network'}, {'futuristic_cityscape'}], [[], [], [], [0], [1], [2], [0, 1, 2, 3, 4, 5]])"]]){}
+[INFO] (None, [['root function name: futuristic_cityscape'], ["scc=([{'skyscraper'}, {'flying_vehicle'}, {'bridge_segment'}, {'city_district'}, {'aerial_traffic'}, {'bridge_network'}, {'futuristic_cityscape'}], [[], [], [], [0], [1], [2], [0, 1, 2, 3, 4, 5]])"]]){}
+[INFO] (None, [['', '']]){'col_names': ['dependency', 'program']}
+[INFO] executing `futuristic_cityscape`...
+node_depths={'skyscraper': 2, 'flying_vehicle': 2, 'bridge_segment': 2, 'city_district': 1, 'aerial_traffic': 1, 'bridge_network': 1, 'futuristic_cityscape': 0}
+[INFO] executing `futuristic_cityscape` done!
+node_depths={'skyscraper': 2, 'flying_vehicle': 2, 'bridge_segment': 2, 'city_district': 1, 'aerial_traffic': 1, 'bridge_network': 1, 'futuristic_cityscape': 0}
+[INFO] (None, [['starting tree_depth=00']]){}
+[INFO] (None, [['tree_depth=00, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E5859D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E585A90>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E585FD0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E586ED0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E513510>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E85B090>]]){'col_names': ['exposed']}
+[INFO] (None, [['starting tree_depth=01']]){}
+[INFO] (None, [['tree_depth=01, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E85AE90>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E85AD90>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E85AC10>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E85AB90>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E85A910>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E85A890>]]){'col_names': ['exposed']}
+[INFO] (None, [['starting tree_depth=02']]){}
+[INFO] (None, [['tree_depth=02, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E85A610>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E85A710>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E85A590>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E85A450>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E85A1D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13E85A250>]]){'col_names': ['exposed']}
+[INFO] (None,){}
+[INFO] (None,){}
+[0m

@@ -1,0 +1,1 @@
+ENGINE_MODE=exposed DEBUG=0 PYTHONPATH=/Users/ayush/Desktop/scene-language/scripts/prompts:$PYTHONPATH python /Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-135048_6cc756c0-2b58-45cd-8f2b-e798210633fd/An_Escher-like_infinite_staircase_winding_through_a_sky_filled__c496e5d1-7814-5f53-919c-6edd0851e9e0/1/impl.py

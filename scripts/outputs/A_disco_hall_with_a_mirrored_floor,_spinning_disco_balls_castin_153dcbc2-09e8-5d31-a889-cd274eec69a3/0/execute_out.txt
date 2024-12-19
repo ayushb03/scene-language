@@ -1,0 +1,73 @@
+ENGINE_MODE='exposed'
+DRY_RUN=False
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/rover/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/table/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/table/scene.xml not found
+[WARNING] Failed to import neural pipelines.
+[INFO] ('/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-140205_efb93c8e-03e2-4dc0-9859-a54b77a46799/A_disco_hall_with_a_mirrored_floor,_spinning_disco_balls_castin_153dcbc2-09e8-5d31-a889-cd274eec69a3/0/renderings',){}
+[INFO] (None,){'verbose': False}
+[INFO] ('/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-140205_efb93c8e-03e2-4dc0-9859-a54b77a46799/A_disco_hall_with_a_mirrored_floor,_spinning_disco_balls_castin_153dcbc2-09e8-5d31-a889-cd274eec69a3/0/renderings',){'verbose': False}
+[INFO] (None, [[None], [None]]){'col_type': 'text'}
+[WARNING] no roots specified, using the last function in the library
+[INFO] calling node (supposed to be root): disco_hall
+[INFO] registering children for disco_ball with 4 hist calls
+[INFO] registering children for floor_tile with 100 hist calls
+[INFO] registering children for dance_floor with 1 hist calls
+[INFO] registering children for spinning_disco_balls with 1 hist calls
+[INFO] registering children for dancer with 8 hist calls
+[INFO] registering children for dancing_crowd with 1 hist calls
+[INFO] registering children for disco_hall with 1 hist calls
+root='disco_hall'
+[INFO] (None, [['Parsed root from program.']]){}
+[INFO] (None, [['root function name: disco_hall'], ["scc=([{'disco_ball'}, {'floor_tile'}, {'dance_floor'}, {'spinning_disco_balls'}, {'dancer'}, {'dancing_crowd'}, {'disco_hall'}], [[], [], [1], [0], [], [4], [0, 1, 2, 3, 4, 5]])"]]){}
+[INFO] (None, [['root function name: disco_hall'], ["scc=([{'disco_ball'}, {'floor_tile'}, {'dance_floor'}, {'spinning_disco_balls'}, {'dancer'}, {'dancing_crowd'}, {'disco_hall'}], [[], [], [1], [0], [], [4], [0, 1, 2, 3, 4, 5]])"]]){}
+[INFO] (None, [['', '']]){'col_names': ['dependency', 'program']}
+[INFO] executing `disco_hall`...
+node_depths={'disco_ball': 2, 'floor_tile': 2, 'dance_floor': 1, 'spinning_disco_balls': 1, 'dancer': 2, 'dancing_crowd': 1, 'disco_hall': 0}
+[INFO] executing `disco_hall` done!
+node_depths={'disco_ball': 2, 'floor_tile': 2, 'dance_floor': 1, 'spinning_disco_balls': 1, 'dancer': 2, 'dancing_crowd': 1, 'disco_hall': 0}
+[INFO] (None, [['starting tree_depth=00']]){}
+[INFO] (None, [['tree_depth=00, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17D7DA190>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17AF03ED0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17D70AC50>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17D7C8990>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17D7C8610>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17D7CA110>]]){'col_names': ['exposed']}
+[INFO] (None, [['starting tree_depth=01']]){}
+[INFO] (None, [['tree_depth=01, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17D7C8610>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17D77C210>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17D37EE50>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17D37F1D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17D7F6750>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17D7F4E90>]]){'col_names': ['exposed']}
+[INFO] (None, [['starting tree_depth=02']]){}
+[INFO] (None, [['tree_depth=02, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17D7F4350>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17D7F6F10>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17D7DF810>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17D7F6CD0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17D7F4B10>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x17E0A72D0>]]){'col_names': ['exposed']}
+[INFO] (None,){}
+[INFO] (None,){}

@@ -1,0 +1,1 @@
+ENGINE_MODE=exposed DEBUG=0 PYTHONPATH=/Users/ayush/Desktop/scene-language/scripts/prompts:$PYTHONPATH python /Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-135527_343adcfc-3c50-4e3a-ac37-c6ad52c08713/A_perfectly_symmetrical_mandala_composed_of_glowing_geometric_s_d236655f-d3cb-55e9-a27a-3607f4b0a496/2/impl.py

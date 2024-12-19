@@ -1,0 +1,57 @@
+ENGINE_MODE='exposed'
+DRY_RUN=False
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/rover/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/table/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/table/scene.xml not found
+[WARNING] Failed to import neural pipelines.
+[INFO] ('/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-140548_5a533430-ec27-4ecc-aa71-a47d044fe3e3/An_ancient_tapestry_in_a_dimly_lit_museum,_with_intricate_woven_e546e7b9-aef5-536c-b6fe-ef447cd6a0c4/2/renderings',){}
+[INFO] (None,){'verbose': False}
+[INFO] ('/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-140548_5a533430-ec27-4ecc-aa71-a47d044fe3e3/An_ancient_tapestry_in_a_dimly_lit_museum,_with_intricate_woven_e546e7b9-aef5-536c-b6fe-ef447cd6a0c4/2/renderings',){'verbose': False}
+[INFO] (None, [[None], [None]]){'col_type': 'text'}
+[WARNING] no roots specified, using the last function in the library
+[INFO] calling node (supposed to be root): ancient_tapestry
+[INFO] registering children for tapestry_base with 1 hist calls
+[INFO] registering children for dragon_silhouette with 2 hist calls
+[INFO] registering children for geometric_pattern with 9 hist calls
+[INFO] registering children for border_element with 4 hist calls
+[INFO] registering children for tapestry_border with 1 hist calls
+[INFO] registering children for ancient_tapestry with 1 hist calls
+root='ancient_tapestry'
+[INFO] (None, [['Parsed root from program.']]){}
+[INFO] (None, [['root function name: ancient_tapestry'], ["scc=([{'tapestry_base'}, {'dragon_silhouette'}, {'geometric_pattern'}, {'border_element'}, {'tapestry_border'}, {'ancient_tapestry'}], [[], [], [], [], [3], [0, 1, 2, 3, 4]])"]]){}
+[INFO] (None, [['root function name: ancient_tapestry'], ["scc=([{'tapestry_base'}, {'dragon_silhouette'}, {'geometric_pattern'}, {'border_element'}, {'tapestry_border'}, {'ancient_tapestry'}], [[], [], [], [], [3], [0, 1, 2, 3, 4]])"]]){}
+[INFO] (None, [['', '']]){'col_names': ['dependency', 'program']}
+[INFO] executing `ancient_tapestry`...
+node_depths={'tapestry_base': 1, 'dragon_silhouette': 1, 'geometric_pattern': 1, 'border_element': 2, 'tapestry_border': 1, 'ancient_tapestry': 0}
+Unable to cast Python instance of type <class 'numpy.ndarray'> to C++ type '?' (#define PYBIND11_DETAILED_ERROR_MESSAGES or compile in debug mode for details)
+Traceback (most recent call last):
+  File "/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-140548_5a533430-ec27-4ecc-aa71-a47d044fe3e3/An_ancient_tapestry_in_a_dimly_lit_museum,_with_intricate_woven_e546e7b9-aef5-536c-b6fe-ef447cd6a0c4/2/impl.py", line 391, in <module>
+    main()
+  File "/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-140548_5a533430-ec27-4ecc-aa71-a47d044fe3e3/An_ancient_tapestry_in_a_dimly_lit_museum,_with_intricate_woven_e546e7b9-aef5-536c-b6fe-ef447cd6a0c4/2/impl.py", line 37, in main
+    core(engine_modes=args.engine_modes, overwrite=args.overwrite, save_dir=args.log_dir,
+  File "/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-140548_5a533430-ec27-4ecc-aa71-a47d044fe3e3/An_ancient_tapestry_in_a_dimly_lit_museum,_with_intricate_woven_e546e7b9-aef5-536c-b6fe-ef447cd6a0c4/2/impl.py", line 165, in core
+    out = execute_from_preset(frame, save_dir=None, preset_id='rover_background')  # compute normalization and sensors
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ayush/Desktop/scene-language/scripts/prompts/mi_helper.py", line 663, in execute_from_preset
+    normalization = compute_normalization(shape, preset_id)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ayush/Desktop/scene-language/scripts/prompts/mi_helper.py", line 642, in compute_normalization
+    box = compute_bbox(shape)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/ayush/Desktop/scene-language/scripts/prompts/_shape_utils.py", line 155, in compute_bbox
+    shape = _preprocess_shape(shape)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ayush/Desktop/scene-language/scripts/prompts/mi_helper.py", line 71, in _preprocess_shape
+    return [
+           ^
+  File "/Users/ayush/Desktop/scene-language/scripts/prompts/mi_helper.py", line 72, in <listcomp>
+    {kk: (vv if kk != 'to_world' else (global_transform @ mi.scalar_rgb.Transform4f(vv)))
+  File "/Users/ayush/Desktop/scene-language/scripts/prompts/mi_helper.py", line 72, in <dictcomp>
+    {kk: (vv if kk != 'to_world' else (global_transform @ mi.scalar_rgb.Transform4f(vv)))
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Unable to cast Python instance of type <class 'numpy.ndarray'> to C++ type '?' (#define PYBIND11_DETAILED_ERROR_MESSAGES or compile in debug mode for details)
+
