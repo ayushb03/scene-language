@@ -6,7 +6,6 @@ __pycache__
 **/cache.json
 **/llama_cache.json
 engine/key.py
-outputs/
 cache/
 # Ignore node_modules
 node_modules/

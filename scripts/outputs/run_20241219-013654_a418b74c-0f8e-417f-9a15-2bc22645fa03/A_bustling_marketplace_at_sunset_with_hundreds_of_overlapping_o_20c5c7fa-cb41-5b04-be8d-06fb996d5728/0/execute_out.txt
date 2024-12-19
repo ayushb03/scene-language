@@ -1,0 +1,75 @@
+ENGINE_MODE='exposed'
+DRY_RUN=False
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/rover/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/table/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/table/scene.xml not found
+[WARNING] Failed to import neural pipelines.
+[INFO] ('/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-013654_a418b74c-0f8e-417f-9a15-2bc22645fa03/A_bustling_marketplace_at_sunset_with_hundreds_of_overlapping_o_20c5c7fa-cb41-5b04-be8d-06fb996d5728/0/renderings',){}
+[INFO] (None,){'verbose': False}
+[INFO] ('/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-013654_a418b74c-0f8e-417f-9a15-2bc22645fa03/A_bustling_marketplace_at_sunset_with_hundreds_of_overlapping_o_20c5c7fa-cb41-5b04-be8d-06fb996d5728/0/renderings',){'verbose': False}
+[INFO] (None, [[None], [None]]){'col_type': 'text'}
+[WARNING] no roots specified, using the last function in the library
+[INFO] calling node (supposed to be root): marketplace
+[INFO] registering children for stall_frame with 6 hist calls
+[INFO] registering children for lantern with 8 hist calls
+[INFO] registering children for person with 30 hist calls
+[INFO] registering children for kite with 5 hist calls
+[INFO] registering children for food_display with 6 hist calls
+[INFO] registering children for lantern_string with 1 hist calls
+[INFO] registering children for crowd with 1 hist calls
+[INFO] registering children for kite_group with 1 hist calls
+[INFO] registering children for marketplace with 1 hist calls
+root='marketplace'
+[INFO] (None, [['Parsed root from program.']]){}
+[INFO] (None, [['root function name: marketplace'], ["scc=([{'stall_frame'}, {'lantern'}, {'person'}, {'kite'}, {'food_display'}, {'lantern_string'}, {'crowd'}, {'kite_group'}, {'marketplace'}], [[], [], [], [], [], [1], [2], [3], [0, 1, 2, 3, 4, 5, 6, 7]])"]]){}
+[INFO] (None, [['root function name: marketplace'], ["scc=([{'stall_frame'}, {'lantern'}, {'person'}, {'kite'}, {'food_display'}, {'lantern_string'}, {'crowd'}, {'kite_group'}, {'marketplace'}], [[], [], [], [], [], [1], [2], [3], [0, 1, 2, 3, 4, 5, 6, 7]])"]]){}
+[INFO] (None, [['', '']]){'col_names': ['dependency', 'program']}
+[INFO] executing `marketplace`...
+node_depths={'stall_frame': 1, 'lantern': 2, 'person': 2, 'kite': 2, 'food_display': 1, 'lantern_string': 1, 'crowd': 1, 'kite_group': 1, 'marketplace': 0}
+[INFO] executing `marketplace` done!
+node_depths={'stall_frame': 1, 'lantern': 2, 'person': 2, 'kite': 2, 'food_display': 1, 'lantern_string': 1, 'crowd': 1, 'kite_group': 1, 'marketplace': 0}
+[INFO] (None, [['starting tree_depth=00']]){}
+[INFO] (None, [['tree_depth=00, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1333E39D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1333E3290>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1333E2150>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1335A9B90>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1335476D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1335F8590>]]){'col_names': ['exposed']}
+[INFO] (None, [['starting tree_depth=01']]){}
+[INFO] (None, [['tree_depth=01, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1335FAC50>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1335F9790>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1335FAFD0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1335FA290>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13350C890>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13350C890>]]){'col_names': ['exposed']}
+[INFO] (None, [['starting tree_depth=02']]){}
+[INFO] (None, [['tree_depth=02, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13350C890>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x1335F8F50>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x132AF1850>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13386D950>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13386D7D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=02, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x13386D1D0>]]){'col_names': ['exposed']}
+[INFO] (None,){}
+[INFO] (None,){}

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/ayush/Desktop/scene-language/scripts/prompts/impl_utils.py", line 10, in <module>
+    from engine.utils.omost_utils import MyCanvas
+  File "/Users/ayush/Desktop/scene-language/engine/utils/omost_utils.py", line 2, in <module>
+    from engine.third_party.omost.lib_omost.canvas import Canvas, valid_colors, safe_str
+ModuleNotFoundError: No module named 'engine.third_party'

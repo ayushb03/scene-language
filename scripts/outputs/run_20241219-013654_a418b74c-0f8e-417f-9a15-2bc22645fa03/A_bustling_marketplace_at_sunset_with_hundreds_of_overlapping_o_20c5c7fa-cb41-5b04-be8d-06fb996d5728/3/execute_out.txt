@@ -1,0 +1,58 @@
+ENGINE_MODE='exposed'
+DRY_RUN=False
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/rover/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/indoors/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/table/scene.xml not found
+WARNING: /Users/ayush/Desktop/scene-language/scripts/assets/mitsuba/table/scene.xml not found
+[WARNING] Failed to import neural pipelines.
+[INFO] ('/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-013654_a418b74c-0f8e-417f-9a15-2bc22645fa03/A_bustling_marketplace_at_sunset_with_hundreds_of_overlapping_o_20c5c7fa-cb41-5b04-be8d-06fb996d5728/3/renderings',){}
+[INFO] (None,){'verbose': False}
+[INFO] ('/Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-013654_a418b74c-0f8e-417f-9a15-2bc22645fa03/A_bustling_marketplace_at_sunset_with_hundreds_of_overlapping_o_20c5c7fa-cb41-5b04-be8d-06fb996d5728/3/renderings',){'verbose': False}
+[INFO] (None, [[None], [None]]){'col_type': 'text'}
+[WARNING] no roots specified, using the last function in the library
+[INFO] calling node (supposed to be root): marketplace_scene
+[INFO] registering children for stall_frame with 9 hist calls
+[INFO] registering children for lantern with 20 hist calls
+[INFO] registering children for kite with 5 hist calls
+[INFO] registering children for person with 30 hist calls
+[INFO] registering children for marketplace_scene with 1 hist calls
+root='marketplace_scene'
+[INFO] (None, [['Parsed root from program.']]){}
+[INFO] (None, [['root function name: marketplace_scene'], ["scc=([{'stall_frame'}, {'lantern'}, {'kite'}, {'person'}, {'marketplace_scene'}], [[], [], [], [], [0, 1, 2, 3]])"]]){}
+[INFO] (None, [['root function name: marketplace_scene'], ["scc=([{'stall_frame'}, {'lantern'}, {'kite'}, {'person'}, {'marketplace_scene'}], [[], [], [], [], [0, 1, 2, 3]])"]]){}
+[INFO] (None, [['', '']]){'col_names': ['dependency', 'program']}
+[INFO] executing `marketplace_scene`...
+node_depths={'stall_frame': 1, 'lantern': 1, 'kite': 1, 'person': 1, 'marketplace_scene': 0}
+[INFO] executing `marketplace_scene` done!
+node_depths={'stall_frame': 1, 'lantern': 1, 'kite': 1, 'person': 1, 'marketplace_scene': 0}
+[INFO] (None, [['starting tree_depth=00']]){}
+[INFO] (None, [['tree_depth=00, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x30D437DD0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x30D434850>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x30D4343D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x30D4371D0>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x30CDD6290>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=00, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x30D437B50>]]){'col_names': ['exposed']}
+[INFO] (None, [['starting tree_depth=01']]){}
+[INFO] (None, [['tree_depth=01, viewpoint=00']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x30C8A1290>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=01']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x30C8A0950>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=02']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x30C8A0F90>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=03']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x30CD66B10>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=04']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x30CD65610>]]){'col_names': ['exposed']}
+[INFO] (None, [['tree_depth=01, viewpoint=05']]){}
+[INFO] (None, [[<PIL.Image.Image image mode=RGB size=512x512 at 0x30C8A0A50>]]){'col_names': ['exposed']}
+[INFO] (None,){}
+[INFO] (None,){}

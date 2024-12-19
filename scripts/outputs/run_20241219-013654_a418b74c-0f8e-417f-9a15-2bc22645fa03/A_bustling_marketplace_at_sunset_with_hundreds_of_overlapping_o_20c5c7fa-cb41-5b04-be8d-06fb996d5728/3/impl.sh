@@ -1,0 +1,1 @@
+ENGINE_MODE=exposed DEBUG=0 PYTHONPATH=/Users/ayush/Desktop/scene-language/scripts/prompts:$PYTHONPATH python /Users/ayush/Desktop/scene-language/scripts/outputs/run_20241219-013654_a418b74c-0f8e-417f-9a15-2bc22645fa03/A_bustling_marketplace_at_sunset_with_hundreds_of_overlapping_o_20c5c7fa-cb41-5b04-be8d-06fb996d5728/3/impl.py
